@@ -1,0 +1,24 @@
+{
+  "name": "json2officexml",
+  "description": "json2officexml.",
+  "version": "0.0.1",
+  "author": "Pierre Metrailler <pierre@shockfish.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pimetrai/node-json2officexml.git"
+  },
+  "keywords": [
+    "Excel"
+  ],
+  "main": "./lib/json2officexml",
+  "dependencies": {
+    "xmlbuilder" : ">= 0.3.1"
+  },
+  "scripts": {
+    "test": "for i in tests/test*.js; do node \"$i\"; done"
+  },
+  "engines": {
+    "node": ">= 0.1.100"
+  },
+  "devDependencies": {}
+}
