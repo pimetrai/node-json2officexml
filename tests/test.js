@@ -6,10 +6,10 @@ var js2o = require("../");
 var writer = js2o.createExcelOfficeXmlWriter();
 
 var doc1 = {
-    columns : [],
-    rows : [
-        { firstname : "John", lastname: "Doo"},
-        { firstname : "Foo", lastname: "Bar", age: "23"}
+    "columns" : [],
+    "rows" : [
+        { "firstname" : "John", "lastname": "Doo"},
+        { "firstname" : "Foo", "lastname": "Bar", "age": 23, "weight": 25.7876, "birth" : new Date()}
     ]
     
 };

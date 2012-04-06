@@ -1,7 +1,7 @@
 {
   "name": "json2officexml",
   "description": "Minimalist JSON to XLS (Excel Office XML) writer.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Pierre Metrailler <pierre@shockfish.com>",
   "repository": {
     "type": "git",
